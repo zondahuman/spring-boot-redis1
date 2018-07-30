@@ -1,0 +1,12 @@
+# port
+server:
+        port: 8444
+spring:
+        application:
+                      name: spring-boot-redis-api
+        redis: #redis cluster
+               cache:
+                      clusterNodes: localhost:6379,localhost:6380,localhost:6381
+                      commandTimeout: 5000
+
+
